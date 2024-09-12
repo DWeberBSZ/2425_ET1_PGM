@@ -59,4 +59,4 @@ Die Unterrichtsmaterialien können über das Programm git von github heruntergel
 * „Pullen“ der neuesten Unterrichtsmaterialien: `Rechtsklick im Ordner > Open Git Bash here`
 * Git-Befehl zum Aktualisieren in Konsole eingeben: `git pull`
 
-!!! **In diesem synchronisierten Ordner mit dem Unterrichtsmaterial sollten Sie keine Änderungen vornehmen. Änderungen in diesem Ordner von Ihnen werden beim Aktualisieren überschrieben. Verwenden Sie für Ihre eigenen Programme einen separaten Ordner !!!**
+!!!! **In diesem synchronisierten Ordner mit dem Unterrichtsmaterial sollten Sie keine Änderungen vornehmen. Änderungen in diesem Ordner von Ihnen werden beim Aktualisieren überschrieben. Verwenden Sie für Ihre eigenen Programme einen separaten Ordner !!!!**
