@@ -41,6 +41,46 @@ WICHTIG: Die BEDINGUNG muss sich zu True oder False auswerten lassen!
 
 """
 
+a = 5.4
+ist_int = isinstance(a, int)
+
+# MERKE: Der else-Zweig einer if-Anweisung gehört auf die gleiche
+# "Höhe" wie die zugehörige if-Anweisung.
+
+# INNERHALB eines Zweigs können WEITERE if-else-Anweisungen stehen
+# (mit entsprechender Einrückung)
+
+if ist_int:
+    print("Die Variable ist vom Datentyp Integer.")
+else:
+    print("Die Variable ist NICHT vom Datentyp Integer.")
+
+    if isinstance(a, float):
+        print("Die Variable ist vom Datentyp float.")
+
+# VERGLEICHSOPERATOREN
+# ====================
+
+# ==  Prüfen auf Gleichheit! NICHT ZU VERWECHSELN MIT Zuweisungsoperator =
+# !=  Prüfen auf Ungleichheit!
+# >   Größer als 
+# <   Kleiner als
+# >=  Größer oder gleich als
+# <=  Kleiner oder gleich als
+
+# Das ERGEBNIS einer Vergleichoperatoren ist ein WAHRHEITSWERT:
+# True, False
+
+alter_al = 42
+alter_to = 20
+
+# Frage: Ist Al älter als To?
+
+if alter_al > alter_to:
+    print("Al ist älter To.")
+
+# Ergänzung: Prüfen auf Un-/Gleichheit funktioniert NICHT NUR mit Zahlen.
+
 
 
 
