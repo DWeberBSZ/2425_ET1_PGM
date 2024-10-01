@@ -78,6 +78,9 @@ alter_to = 20
 
 if alter_al > alter_to:
     print("Al ist älter To.")
+else:
+    # TODO.
+    pass      
 
 # Ergänzung: Prüfen auf Un-/Gleichheit funktioniert NICHT NUR mit Zahlen.
 
