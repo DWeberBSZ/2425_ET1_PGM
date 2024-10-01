@@ -10,43 +10,39 @@ Testen Sie das Programm, indem Sie der Variablen a Werte von verschiedenen Daten
 Zeit: 10 Minuten, Einzelarbeit.
 """
 
+# Mögliche Lösung: 
+
 a = True # Verschiedene Datentypen ausprobieren.
 
-if isinstance(a, bool): # WAHR oder FALSCH
+if isinstance(a, bool): 
     print("Die Variable ist vom Typ Bool.")
-
-# FRAGE: Was ist der Vorteil mit der Verwendung von else?
-# ANTWORT: Das Programm wird schneller
-else:
+    
+else: 
     if isinstance(a, float):
         print("Die Variable ist vom Typ Float.")
-    else:  
+        
+    else:
         if isinstance(a, int):
-            print("Die Variable ist vom Datentyp Int.")
+            print("Die Variable ist vom Typ Integer.")
+            
         else:
             if isinstance(a, str):
-                print("Die Variable ist vom Datentyp String.")
+                print("Die Variable ist vom Typ String.")
+                
+# Kürzere Variante:
+a = True # Verschiedene Datentypen ausprobieren.
 
-# if BEDINGUNG:
-#    pass
-# elif:
-#    ...
-
-if isinstance(a, bool): # WAHR oder FALSCH
+if isinstance(a, bool): 
     print("Die Variable ist vom Typ Bool.")
-
-# FRAGE: Was ist der Vorteil mit der Verwendung von else?
-# ANTWORT: Das Programm wird schneller
+    
 elif isinstance(a, float):
-        print("Die Variable ist vom Typ Float.")
+    print("Die Variable ist vom Typ Float.")
+        
 elif isinstance(a, int):
-        print("Die Variable ist vom Datentyp Int.")
+    print("Die Variable ist vom Typ Integer.")
+            
 elif isinstance(a, str):
-        print("Die Variable ist vom Datentyp String.")
-
-
-# Ein Bool ist eine Teilmenge von Integer
-# Ähnlich: Apfel ist Obst, aber Obst ist kein Apfel
+    print("Die Variable ist vom Typ String.")
 
 
 
