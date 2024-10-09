@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FRAME GUID="2FB25471-B62C-4EE6-BD43-F819C095ACF8" FORMAT="0000" APP_VERSION="2.2.0.8" CHECKSUM="2674BAC7A9708078">
+  <PROJECT FORMAT="1.00" NAME="Paket_Zuordnung_AP1" AUTHOR="Weber" CREATED="2022.12.14 16:54:21" MODIFIED="2023.10.09 07:52:35">
+    <DIAGRAMS>
+      <DIAGRAM FORMAT="1.00" ID="0" NAME="Paket-Zuordnung AP1" CREATED="2022.12.14 16:58:07" MODIFIED="2023.10.09 07:52:35">
+        <LAYOUT FORMAT="1.00" COLUMNS="5" ROWS="14">
+          <ENTRIES>
+            <ENTRY COLUMN="0" ROW="9">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="93">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="10">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="91">
+                <TEXT><![CDATA[fach = 3]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="11">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="100">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="7">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="62">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="8">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="16">
+                <TEXT><![CDATA[fach = 2]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="9">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="20">
+                <TEXT><![CDATA[Paketnummer ist restlos durch 400 teilbar?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="4">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="83">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="6">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="12">
+                <TEXT><![CDATA[fach = 1]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="7">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="14">
+                <TEXT><![CDATA[Paketnummer restlos durch 100 teilbar?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="3" ROW="0" ANCHOR="True">
+              <FIGURE SUBTYPE="PapTitle" FORMAT="1.00" ID="0">
+                <TEXT><![CDATA[Paket-Zuordnung AP1]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="3" ROW="1">
+              <FIGURE SUBTYPE="PapStart" FORMAT="1.00" ID="1">
+                <TEXT><![CDATA[Start]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="3" ROW="2">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="4">
+                <TEXT><![CDATA[Variablen paketnummer und fach definieren und initialisieren.]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="3" ROW="3">
+              <FIGURE SUBTYPE="PapInput" FORMAT="1.00" ID="6">
+                <TEXT><![CDATA[Einlesen der Paketnummer (Typkonvertierung)]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="3" ROW="4">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="8">
+                <TEXT><![CDATA[Paketnummer restlos durch 4 oder 5 teilbar?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="3" ROW="7">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="87">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="3" ROW="9">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="123">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="3" ROW="11">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="102">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="3" ROW="12">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="121">
+                <TEXT><![CDATA[Ausgabe von fach]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="3" ROW="13">
+              <FIGURE SUBTYPE="PapEnd" FORMAT="1.00" ID="2">
+                <TEXT><![CDATA[Ende]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="4" ROW="4">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="10">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="4" ROW="5">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="28">
+                <TEXT><![CDATA[fach = 4]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="4" ROW="11">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="115">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+          </ENTRIES>
+        </LAYOUT>
+        <CONNECTIONS>
+          <CONNECTION FORMAT="1.00" ID="3" FROM="1" TO="4" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="5" FROM="4" TO="6" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="7" FROM="6" TO="8" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="124" FROM="123" TO="102" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="11" FROM="8" TO="10" TEXT="falsch" />
+          <CONNECTION FORMAT="1.00" ID="84" FROM="8" TO="83" TEXT="wahr" />
+          <CONNECTION FORMAT="1.00" ID="63" FROM="14" TO="62" TEXT="wahr" />
+          <CONNECTION FORMAT="1.00" ID="101" FROM="91" TO="100" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="94" FROM="20" TO="93" TEXT="wahr" />
+          <CONNECTION FORMAT="1.00" ID="95" FROM="93" TO="91" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="64" FROM="62" TO="16" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="96" FROM="87" TO="123" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="88" FROM="14" TO="87" TEXT="falsch" />
+          <CONNECTION FORMAT="1.00" ID="68" FROM="16" TO="20" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="103" FROM="102" TO="121" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="27" FROM="10" TO="28" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="85" FROM="83" TO="12" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="57" FROM="12" TO="14" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="125" FROM="20" TO="123" TEXT="falsch" />
+          <CONNECTION FORMAT="1.00" ID="104" FROM="100" TO="102" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="117" FROM="115" TO="102" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="106" FROM="28" TO="115" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="122" FROM="121" TO="2" TEXT="" />
+        </CONNECTIONS>
+      </DIAGRAM>
+    </DIAGRAMS>
+  </PROJECT>
+</FRAME>

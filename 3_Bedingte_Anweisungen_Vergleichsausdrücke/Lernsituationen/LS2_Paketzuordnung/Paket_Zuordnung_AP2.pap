@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FRAME GUID="2FB25471-B62C-4EE6-BD43-F819C095ACF8" FORMAT="0000" APP_VERSION="2.2.0.8" CHECKSUM="705566201812E6DA">
+  <PROJECT FORMAT="1.00" NAME="Paket_Zuordnung_AP1" AUTHOR="Weber" CREATED="2022.12.14 16:54:21" MODIFIED="2023.10.09 08:00:31">
+    <DIAGRAMS>
+      <DIAGRAM FORMAT="1.00" ID="1" NAME="Paket-Zuordnung AP2" CREATED="2022.12.14 16:58:07" MODIFIED="2023.10.09 08:00:31">
+        <LAYOUT FORMAT="1.00" COLUMNS="1" ROWS="10">
+          <ENTRIES>
+            <ENTRY COLUMN="0" ROW="0" ANCHOR="True">
+              <FIGURE SUBTYPE="PapTitle" FORMAT="1.00" ID="0">
+                <TEXT><![CDATA[Paket-Zuordnung AP2]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="1">
+              <FIGURE SUBTYPE="PapStart" FORMAT="1.00" ID="1">
+                <TEXT><![CDATA[Start]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="2">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="4">
+                <TEXT><![CDATA[Variablen paketnummer und fach definieren und initialisieren.]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="3">
+              <FIGURE SUBTYPE="PapInput" FORMAT="1.00" ID="6">
+                <TEXT><![CDATA[Einlesen von Paketnummer (Typkonvertierung)]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="4">
+              <FIGURE SUBTYPE="PapLoopStart" FORMAT="1.00" ID="119" ASSOCIATE="121">
+                <TEXT><![CDATA[Solange Paketnummer ungleich 0]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="5">
+              <FIGURE SUBTYPE="PapModule" FORMAT="1.00" ID="128">
+                <TEXT><![CDATA[Zuordnung zu Fächern wie AP1]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="6">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="99">
+                <TEXT><![CDATA[Ausgabe von fach]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="7">
+              <FIGURE SUBTYPE="PapInput" FORMAT="1.00" ID="124">
+                <TEXT><![CDATA[Einlesen von Paketnummer (Typkonvertierung)]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="8">
+              <FIGURE SUBTYPE="PapLoopEnd" FORMAT="1.00" ID="121" ASSOCIATE="119">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="9">
+              <FIGURE SUBTYPE="PapEnd" FORMAT="1.00" ID="2">
+                <TEXT><![CDATA[Ende]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+          </ENTRIES>
+        </LAYOUT>
+        <CONNECTIONS>
+          <CONNECTION FORMAT="1.00" ID="3" FROM="1" TO="4" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="5" FROM="4" TO="6" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="7" FROM="6" TO="119" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="127" FROM="99" TO="124" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="130" FROM="121" TO="2" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="120" FROM="119" TO="128" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="125" FROM="124" TO="121" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="129" FROM="128" TO="99" TEXT="" />
+        </CONNECTIONS>
+      </DIAGRAM>
+    </DIAGRAMS>
+  </PROJECT>
+</FRAME>
