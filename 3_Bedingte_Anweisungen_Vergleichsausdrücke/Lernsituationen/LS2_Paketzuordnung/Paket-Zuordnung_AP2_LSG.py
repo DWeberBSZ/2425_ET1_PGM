@@ -1,10 +1,13 @@
 paketnummer = 0
 fach = 0
 
+
 paketnummer = int(input("Paketnummer oder Beenden (0): "))
 
-while paketnummer != 0:
+# Solange (while) BEDINGUNG zutrifft.
+while paketnummer != 0: # 1. Schritt: Abfrage der Bedingung im Schleifenkopf
 
+    # 2. Schritt: Abarbeiten der Anweisungen INNERHALB von der Schleife ("Alles, was eingerückt ist.")
     if paketnummer % 4 == 0 or paketnummer % 5 == 0:
         
         fach = 1
@@ -24,5 +27,9 @@ while paketnummer != 0:
     print(f"Fach: {fach}")
     
     paketnummer = int(input("Paketnummer oder Beenden (0): "))
-    
-print("Das Programm wurde durch die Eingabe von 0 beendet.");
+
+    # 3. Schritt: Zurückspringen zum Schleifenkopf (Zeile 8)
+
+# <--- Hier wird nach der Schleife weitergemacht (Wenn die Bedingung nicht mehr zutrifft)!
+
+print("Das Programm wurde durch die Eingabe von 0 beendet.")
