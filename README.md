@@ -4,7 +4,7 @@ Herzlich Willkommen auf dem github-Repository für das Fach Programmierung an de
 
 Hier finden Sie den Programmcode zum Unterricht. 
 
-**WICHTIG**: Dieses Repository ist public und read-only: Es ist ÖFFENTLICH zugänglich, aber jeder besitzt nur Leserechte.
+**WICHTIG**: Dieses Repository ist public und read-only: Es ist ÖFFENTLICH zugänglich, aber Sie besitzen nur Leserechte.
 
 ## Getting Started
 
