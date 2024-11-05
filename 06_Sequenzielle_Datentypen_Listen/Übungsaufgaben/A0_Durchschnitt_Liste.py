@@ -9,5 +9,5 @@ Arbeitsauftrag:
 
 ZUSATZAUFGABE: Führen Sie die Berechnung anschließend mit der Python sum-Funktion durch.
 
-Zeit: 10 Minuten, Einzelarbeit
+Zeit: 15 Minuten, Einzelarbeit
 '''
