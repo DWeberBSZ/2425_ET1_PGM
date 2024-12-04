@@ -1,5 +1,5 @@
 '''
-Übungsaufgabe: Durchschnittspunktzahl mit Dictionary berechnen.
+Übungsgaufgabe: Durchschnittspunktzahl mit Dictionary berechnen.
 ================================================================
 
 Gegeben ist ein Dictionary mit Schülern und den jeweiligen 
@@ -16,7 +16,6 @@ Funktionen sum() und len() zurück.
 '''
 
 # Das Dictionary mit Schülern und ihren Noten
-# Eingabe
 noten = {
     'Max': [85, 90, 92],
     'Anna': [78, 85, 80],
@@ -24,17 +23,13 @@ noten = {
     'Lisa': [82, 75, 88]
 }
 
-durchschnitt = dict()
+# Berechnung des Durchschnitts für jeden Schüler
+durchschnittsnoten = {}
 
-# Verarbeitung
-for key, value in noten.items(): # items liefert Schlüssel + Wert
-    # z.B. für den ersten Durchlauf: 
-    # key = 'Max', 
-    # value = [85, 90, 92]
-    durchschnitt[key] = sum(value) / len(value)
-    #print(f"{key}:{durchschnitt[key]}")
+for schueler, notenliste in noten.items():
+    durchschnitt = sum(notenliste) / len(notenliste)
+    durchschnittsnoten[schueler] = durchschnitt
 
-
-# Ausgabe
-for key in durchschnitt:
-    print(f"{key}:{durchschnitt[key]}")
+print("Durchschnittsnoten der Schüler:")
+for schueler, durchschnitt in durchschnittsnoten.items():
+    print(f"{schueler}: {durchschnitt}")
