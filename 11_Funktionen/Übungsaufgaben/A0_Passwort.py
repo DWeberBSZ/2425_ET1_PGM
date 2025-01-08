@@ -14,14 +14,14 @@ Es gelten folgende Regeln:
 
 QUELLE: Fachbuch, Michael Kofler "Python, der Grundkurs"
 
-Zeit: 20 Minuten, Einzelarbeit.
+Zeit: 20 Minuten, Einzelarbeit. Zeit bis 11:45
 """
 
 def password_quality(password):
-    punkte = 0
+    points = 0
     # Hier muss das Passwort überprüft werden.
     # ...
-    return punkte
+    return points
 
 
     
