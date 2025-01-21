@@ -5,9 +5,17 @@ win_codes = list()
 def is_win_code(text):
 
     # Anlegen eines Regex-Objekts mit unserem Muster (Pattern).
-    win_code_pattern_re = re.compile(r"\d\d\d-(\d\d\d)-(\d\d\d\d)")
+    # win_code_pattern_re = re.compile(r"\d\d\d-(\d\d\d)-(\d\d\d\d)")
     # Alternativ:
-    #win_code_pattern_re = re.compile(r"\d{3}-(\d{3})-(\d{4})")
+    win_code_pattern_re = re.compile(r"\d{3}-(\d{3})-(\d{4})")
+
+    # WIEDERHOLUNGEN können mit {} realisiert werden
+    # z.B. {3} für exakt 3 Wiederholungen
+    # z.B. {3,5} für 3 bis 5 Wiederholungen (inklusiv!!!)
+    
+    # ANDERE ARTEN VON WIEDERHOLUNGEN:
+    # Asteriks * -> Keine Wiederholung oder beliebig viele, 0...n
+    # Plus + - Eine Wiederholung oder beliebig viele, 1...n
 
     # Variable text auf regulären Ausdruck mit Funktion search() überprüfen.
     mo = win_code_pattern_re.search(text) # Gibt ein Match-Objekt zurück (mo) oder None, wenn nichts gefunden wurde.
